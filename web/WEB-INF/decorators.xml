@@ -1,0 +1,22 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+        <!-- 定一个一个默认的装饰包-->
+<decorators defaultdir="/siteMesh_Decorator">
+
+<!-- 此处用来定义不需要过滤的页面 -->
+
+<excludes>
+
+</excludes>
+
+
+
+<!-- 用来定义装饰器要过滤的页面 列出装饰页面-->
+
+<decorator name="decorator" page="decorator.jsp">
+
+    <pattern>/*</pattern>
+
+</decorator>  <!-- 指明装饰页面的根目录，和用来装饰的文件名-->
+
+</decorators>
